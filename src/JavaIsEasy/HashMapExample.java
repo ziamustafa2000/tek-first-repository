@@ -6,13 +6,10 @@ package JavaIsEasy;
     public class HashMapExample {
 
         public static void main(String[] args) {
-            // Create a HashMap instance
+
             HashMap<Integer, String> myMap = new HashMap<>();
-
-            // Add a key-value pair to the HashMap
             myMap.put(1, "Zia");
-
-            // Print the value associated with key 1
+            myMap.put(2, "ZiaKhan");
             System.out.println("Key 1: " + myMap.get(1));
         }
     }
